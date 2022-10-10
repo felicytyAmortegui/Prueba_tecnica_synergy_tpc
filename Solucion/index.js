@@ -7,7 +7,7 @@ const llamada = async (url)=>{
     return i
 }
 
-const uerele= `https://electrics.azurewebsites.net/Electrodomestico/ListarElectrodomesticos`;
+const urlListaElectrodomesticos= `https://electrics.azurewebsites.net/Electrodomestico/ListarElectrodomesticos`;
 
 
-console.log(llamada(uerele)); 
+console.log(llamada(urlListaElectrodomesticos)); 
